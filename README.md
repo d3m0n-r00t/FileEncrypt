@@ -2,12 +2,25 @@
 
 The FileEncrypt is bash script cmdline program to encrypt files using openssl aes256-cbc
 
-
+### Requirements:
+ 
+- In Redhat 
+```
+$ sudo yum install openssl
+```
+- In Debian
+```
+$ sudo apt-get install openssl
+```
+- In arch linux
+```
+$ sudo pacman -S openssl
+```
 ### Usage:
 ```
-git clone https://github.com/Vidhunind/FileEncrypt
-cd FileEncrypt
-bash run.sh
+$ git clone https://github.com/Vidhunind/FileEncrypt
+$ cd FileEncrypt
+$ bash run.sh
 ```
 - To Encrpyt File
 ```
@@ -22,7 +35,7 @@ Encryption successful
 ```
 - To Decrypt File
 ```
-$bash run.sh
+$ bash run.sh
 [1]To Encrypt file [enc]
 [2]To Decrypt file [dec]
 >> 2
