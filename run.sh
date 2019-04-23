@@ -6,7 +6,7 @@ nocolor=$(tput sgr0)
 bold_red=${bold}${red}
 bold_yellow=${bold}${yellow}
 
-if ! dpkg -s openssl &> /dev/null;then
+if ! which openssl &> /dev/null;then
  	echo "${yellow}[!]${nocolor} Openssl is required to run the program please install!" 
   	echo "${yellow}[!]${nocolor} Exiting."
 	exit 
