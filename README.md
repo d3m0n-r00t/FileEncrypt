@@ -1,4 +1,4 @@
-## FileEncrypt
+## FileEncrypt Version 1.1
 
 The FileEncrypt is bash script cmdline program to encrypt files using openssl aes256-cbc
 
@@ -43,3 +43,17 @@ $ bash run.sh
 enter aes-256-cbc decryption password:
 Decryption successful.
 ```
+### New version python interface
+
+A new python interface is added for easy operation and understanding. 
+
+## Requirements for python 
+
+1. os library 
+2. termcolor library
+
+### Usage
+'''
+$ python3 run.py
+'''
+The rest is same. Enjoy!!!!!
