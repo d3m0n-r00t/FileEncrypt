@@ -53,7 +53,7 @@ A new python interface is added for easy operation and understanding.
 2. termcolor library
 
 ### Usage
-'''
+```
 $ python3 run.py
-'''
+```
 The rest is same. Enjoy!!!!!
